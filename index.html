@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Food Resturant</title>
+    <link rel="icon" href="img/Capture.PNG" type="icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary w-100 shadow rounded p-2 p-lg-0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="logo d-flex align-items-center">
+            <i class="fa-solid fa-utensils fs-2 pe-1"></i>
+            <h1 class="col-main fw-bold m-0">Resto.</h1>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 m-lg-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold m-2 active col-main"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold m-2 col-main" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold m-2 col-main" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold m-2 col-main" href="#">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold m-2 col-main" href="#">Order</a>
+            </li>
+          </ul>
+          <div class="icons d-flex align-items-center pb-sm-3 pb-lg-0">
+            <div class="circle col-main">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="circle col-main"><i class="fa-solid fa-heart"></i></div>
+            <div class="circle col-main">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- header start -->
+    <header id="home" class="header d-flex align-items-lg-center w-100">
+      <div class="container mt-sm-5">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col col-lg-6">
+            <div class="title mt-5 text-center text-lg-start">
+              <h2 class="head pt-4">Our Special Dish</h2>
+              <h2 class="main-head">Spicy Noodles</h2>
+              <p class="discription text-muted w-100 fs-5">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ratione esse doloribus quam?
+              </p>
+              <a class="btn fw-bold" href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="col col-lg-6">
+            <div class="container-img mt-5 mt-lg-2">
+              <img class="img-fluid w-100" src="img/home-img-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- dishes start -->
+    <section id="dishes">
+      <div class="row">
+        <div class="main-header">
+          <h2 class="text-center col-main fw-bolder">Our Dishes</h2>
+          <span class="short"></span>
+          <span class="long"></span>
+          <span class="short"></span>
+        </div>
+        <h3 class="fw-bold col-main text-center mt-5">POPULAR DISHES</h3>
+      </div>
+      <div class="container mb-4">
+        <div class="row flex-sm-column flex-md-row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div
+              class="inner bg-light p-2 mt-4 position-relative overflow-hidden rounded-2"
+            >
+              <div class="dish bg-light p-3 text-center rounded-2">
+                <div class="icons">
+                  <div class="circle i-left col-main">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="circle i-right col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img src="img/dish-1.png" alt="" />
+                <h4 class="fw-bold">Tasty Burger</h4>
+                <div class="stars p-3 fs-4 col-sec">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div
+                  class="option d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold fs-5 col-main">$15.99</span>
+                  <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div
+              class="inner bg-light p-2 mt-4 position-relative overflow-hidden rounded-2"
+            >
+              <div class="dish bg-light p-3 text-center rounded-2">
+                <div class="icons d-flex justify-content-between">
+                  <div class="circle i-left col-main">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="circle i-right col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img class="" src="img/dish-2.png" alt="" />
+                <h4 class="fw-bold">Chicken Naggets</h4>
+                <div class="stars p-3 fs-4 col-sec">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div
+                  class="option d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold fs-5 col-main">$12.99</span>
+                  <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div
+              class="inner bg-light p-2 mt-4 position-relative overflow-hidden rounded-2"
+            >
+              <div class="dish bg-light p-3 text-center rounded-2">
+                <div class="icons d-flex justify-content-between">
+                  <div class="circle i-left col-main">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="circle i-right col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img src="img/dish-3.png" alt="" />
+                <h4 class="fw-bold">Grilled Chicken</h4>
+                <div class="stars p-3 fs-4 col-sec">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div
+                  class="option d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold fs-5 col-main">$15.99</span>
+                  <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div
+              class="inner bg-light p-2 mt-4 position-relative overflow-hidden rounded-2"
+            >
+              <div class="dish bg-light p-3 text-center rounded-2">
+                <div class="icons d-flex justify-content-between">
+                  <div class="circle i-left col-main">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="circle i-right col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img width="" src="img/dish-4.png" alt="" />
+                <h4 class="fw-bold">American Pizza</h4>
+                <div class="stars p-3 fs-4 col-sec">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div
+                  class="option d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold fs-5 col-main">$19.99</span>
+                  <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div
+              class="inner bg-light p-2 mt-4 position-relative overflow-hidden rounded-2"
+            >
+              <div class="dish bg-light p-3 text-center rounded-2">
+                <div class="icons d-flex justify-content-between">
+                  <div class="circle i-left col-main">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </div>
+                  <div class="circle i-right col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img src="img/dish-5.png" alt="" />
+                <h4 class="fw-bold">Cookies</h4>
+                <div class="stars p-3 fs-4 col-sec">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div
+                  class="option d-flex justify-content-between align-items-center"
+                >
+                  <span class="fw-bold fs-5 col-main">$15.99</span>
+                  <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dishes END -->
+
+    <!-- About us START -->
+    <section id="about" class="mt-5">
+      <div class="row flex-">
+        <div class="main-header">
+          <h2 class="text-center col-main fw-bolder">About Us</h2>
+          <span class="short"></span>
+          <span class="long"></span>
+          <span class="short"></span>
+        </div>
+        <h3 class="fw-bold col-main text-center mt-5">WHY CHOOSE US?</h3>
+      </div>
+      <div class="container mt-sm-5">
+        <div class="row flex-column flex-lg-row">
+          <div class="col col-lg-6">
+            <div class="container-img mt-5 mt-lg-2">
+              <img class="img-fluid w-100" src="img/about-img.png" alt="" />
+            </div>
+          </div>
+          <div class="col col-lg-6">
+            <div class="title mt-5 text-center text-lg-start">
+              <h2 class="fw-bold fs-1">Best Food In The Country</h2>
+              <p class="discription text-muted">
+                Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore,
+                Sequi Corrupti Corporis Quaerat Voluptatem Ipsam Neque Labore
+                Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut
+                Soluta Odio Corporis Nihil! Lorem Ipsum Dolor Sit Amet,
+                Consectetur Adipisicing Elit. Aperiam, Nemo. Sit Porro Illo Eos
+                Cumque Deleniti Iste Alias, Eum Natus.
+              </p>
+              <div class="about-icons text-center p-2 mb-3">
+                <div class="row flex-nowrap w-100">
+                  <div
+                    class="col-4 border border-secondary-subtle rounded p-2 m-1"
+                  >
+                    <div class="row1">
+                      <span class="col-sec"
+                        ><i class="fas fa-shipping-fast fs-5"></i
+                      ></span>
+                      <span class="col-main fw-bold">Free</span>
+                    </div>
+                    <div class="row2">
+                      <span class="col-main fw-bold">Delivery</span>
+                    </div>
+                  </div>
+                  <div
+                    class="col-4 border border-secondary-subtle rounded p-2 m-1"
+                  >
+                    <div class="row1">
+                      <span class="col-sec"
+                        ><i class="fas fa-dollar-sign fs-5"></i
+                      ></span>
+                      <span class="col-main fw-bold">Easy</span>
+                    </div>
+                    <div class="row2">
+                      <span class="col-main fw-bold">Payment</span>
+                    </div>
+                  </div>
+                  <div
+                    class="col-4 border border-secondary-subtle rounded p-2 m-1"
+                  >
+                    <div class="row1">
+                      <span class="col-sec"
+                        ><i class="fas fa-headset fs-5"></i
+                      ></span>
+                      <span class="col-main fw-bold">24/7</span>
+                    </div>
+                    <div class="row2">
+                      <span class="col-main fw-bold">Service</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn fw-bold" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us END -->
+
+    <!--Menu START  -->
+    <section class="mt-5">
+      <div class="row">
+        <div class="main-header">
+          <h2 class="text-center col-main fw-bolder">Our Menu</h2>
+          <span class="short"></span>
+          <span class="long"></span>
+          <span class="short"></span>
+        </div>
+        <h3 class="fw-bold col-main text-center mt-5">TODAY'S SPECIALITY</h3>
+      </div>
+      <div class="container mb-4">
+        <div class="row flex-sm-column flex-md-row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-1.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">
+                    Pepperoni Pizza
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$15.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100 img-fluid"
+                  src="img/menu-2.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">Hamburger</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$12.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-3.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">
+                    Honey crepe
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$10.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-4.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">
+                    Ice Cream Waffle
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$9.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-5.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">
+                    Cookies cake
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$20.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-6.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">Cupcake</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$15.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="inner bg-light mt-4 position-relative rounded-1">
+              <div class="card w-100" style="width: 18rem">
+                <div class="icons">
+                  <div class="circle position-absolute col-main">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+                <img
+                  class="card-img-top w-100"
+                  src="img/menu-7.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <div class="stars fs-5 col-sec">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h5 class="card-title fw-bold p-1 col-main fs-">
+                    Cold Drinks
+                  </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="option d-flex justify-content-between align-items-center"
+                  >
+                    <a class="btn dish-btn fw-bold" href="#">Add to chart</a>
+                    <span class="fw-bold fs-5 col-main">$15.99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu END -->
+
+    <!-- Order START -->
+    <section class="mt-5">
+      <div class="row">
+        <div class="main-header">
+          <h2 class="text-center col-main fw-bolder">Order Now</h2>
+          <span class="short"></span>
+          <span class="long"></span>
+          <span class="short"></span>
+        </div>
+        <h3 class="fw-bold col-main text-center mt-4">FREE AND FAST</h3>
+      </div>
+      <div class="form m-auto w-lg-75">
+        <form action="">
+          <div class="container mt-sm-5 bg-white rounded-2 w-75 p-3">
+            <div class="row flex-column flex-lg-row">
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="name" class="col-main fw-bold">Your Name</label>
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="number" class="col-main fw-bold"
+                    >Your Number</label
+                  >
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="number"
+                    name="number"
+                    id="number"
+                    placeholder="Enter Your Number"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="order" class="col-main fw-bold">Your Order</label>
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="text"
+                    name="order"
+                    id="order"
+                    placeholder="Enter Your Order"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="number" class="col-main fw-bold"
+                    >Appetizers</label
+                  >
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="text"
+                    name="order"
+                    id="order"
+                    placeholder="Enter Your Order"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="number" class="col-main fw-bold"
+                    >Number Of Orders</label
+                  >
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="number"
+                    name="number"
+                    id="number"
+                    placeholder="Enter Number Of Orders"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6 mb-3">
+                <div class="name d-flex flex-column">
+                  <label for="number" class="col-main fw-bold"
+                    >Date and Time</label
+                  >
+                  <input
+                    class="p-2 rounded-2 w-100 input-border"
+                    type="datetime-local"
+                    name="number"
+                    id="number"
+                    placeholder="Enter Your Number"
+                  />
+                </div>
+              </div>
+              <div class="col col-lg-6">
+                <div class="name d-flex flex-column">
+                  <label for="adress" class="col-main fw-bold"
+                    >Your Adress</label
+                  >
+                  <textarea
+                    name="adress"
+                    id="adress"
+                    rows="10"
+                    cols="30"
+                    class="p-2 rounded-2 w-100 input-border"
+                  ></textarea>
+                </div>
+                <a class="btn fw-bold mt-3" href="#">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Order END -->
+
+    <!-- Footer START -->
+    <section>
+      <div class="footer bg-main mt-5">
+        <div class="container">
+          <div class="row p-4 flex-column flex-lg-row justify-content-center">
+            <div class="col col-lg-3 text-center text-lg-start">
+              <ul class="text-white list-unstyled">
+                <span class="fw-bold">Locations</span>
+                <li class="pb-2 pt-3">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Istanbul</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >India</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Cairo</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >USA</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Canda
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col col-lg-3 text-center text-lg-start">
+              <ul class="text-white list-unstyled">
+                <span class="fw-bold text-center">Quick Links</span>
+                <li class="pb-2 pt-3">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Dishes</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Menu</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Order</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col col-lg-3 text-center text-lg-start">
+              <ul class="text-white list-unstyled">
+                <span class="fw-bold">Contact Info</span>
+                <li class="pb-2 pt-3">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >+20 1203548996</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >+20 1203552996</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >user@gmail.com</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >user@hotmail.com</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Istanbul,123 Street</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col col-lg-3 text-center text-lg-start">
+              <ul class="text-white list-unstyled">
+                <span class="fw-bold">Follow Us</span>
+                <li class="pb-2 pt-3">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="pb-2">
+                  <a class="text-white text-decoration-none fs-6" href="#"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer END -->
+
+    <!-- Copyright START -->
+    <section>
+      <div class="footer bg-sec">
+        <div class="container">
+          <div class="row p-4 flex-column flex-lg-row m-auto">
+            <div class="col col-lg-12 text-center">
+              <p class="text-white fs-6">
+                Copyright @ 2024 All rights reserved | This template is made
+                with <i class="fa-solid fa-heart text-danger"></i> by
+                <span class="fw-bold">Hajer Abdeen</span>
+              </p>
+            </div>
+            <div class="icons d-flex justify-content-center">
+              <a href="#"><i class="fa-brands fa-twitter text-white p-2"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f text-white p-2"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram-square text-white p-2"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble text-white p-2"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest text-white p-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
